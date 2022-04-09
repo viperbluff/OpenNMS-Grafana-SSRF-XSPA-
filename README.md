@@ -8,6 +8,7 @@ SSRF [Server side request forgery]
 Assesor observed that it was possible to generate arbitrary requests from server to internal hosts and scan their ports/services.
 
 Affected URL: https://172.23.105.203:8443/opennms/admin/endpoint/index.jsp#!/endpoints/grafana
+Affected Field: Grafana URL 
 
 Impact: 
 
