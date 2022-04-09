@@ -26,9 +26,11 @@ Below POC confirms that request is generated from the OpenNMS server:
 
 
 Port 22 Found to be open :
+
 ![image](https://user-images.githubusercontent.com/16098568/156047063-f64d8de6-e498-4491-88b1-ffeac7e941cb.png)
 
 Port 21 found to be closed:
+
 ![image](https://user-images.githubusercontent.com/16098568/156047088-66d1cf4d-09c4-47ad-b166-e34bc26465ce.png)
 
 Fix: Whitelisting of Grafana ports and disabling banner information disclosure when providing random ports.
